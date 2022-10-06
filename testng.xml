@@ -10,6 +10,12 @@
   <test thread-count="3" name="Test" parallel='methods'>
     <classes>
       <class name="com.fa.tests.LoginPageTest"/>
+<<<<<<< HEAD
+=======
+       <class name="com.fa.tests.AccountPageTest"/>
+       <class name="com.fa.tests.BillingPageTest"/>
+       <class name="com.fa.tests.ShippingPageTest"/>
+>>>>>>> 9d49c45 (new pages)
       
       
       

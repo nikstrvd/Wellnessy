@@ -8,6 +8,7 @@
   </listeners>
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.fa.tests.LoginPageTest">
         <methods>
           <include name="setUp"/>
@@ -15,6 +16,15 @@
           <include name="LoginLogoutTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.fa.tests.LoginPageTest -->
+=======
+      <class name="com.fa.tests.ShippingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="UpdateShippingDetailsTab" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.fa.tests.ShippingPageTest -->
+>>>>>>> 9d49c45 (new pages)
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

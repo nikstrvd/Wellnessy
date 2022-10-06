@@ -9,10 +9,45 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
+<<<<<<< HEAD
 <tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">26,835</td><td></td><td></td></tr>
 </table>
 <table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.fa.tests.LoginPageTest</td><td><a href="#m0">LoginLogoutTest</a></td><td rowspan="1">1664455149095</td><td rowspan="1">10118</td></tr></tbody>
 </table>
 <h2>Test</h2><h3 id="m0">com.fa.tests.LoginPageTest#LoginLogoutTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=123456, testname=LoginLogoutTest, execute=yes, browser=chrome, username=nikhil123@mailinator.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+=======
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">22,769</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.fa.tests.ShippingPageTest</td><td><a href="#m0">UpdateShippingDetailsTab</a></td><td rowspan="1">1664880331475</td><td rowspan="1">8061</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.fa.tests.ShippingPageTest#UpdateShippingDetailsTab</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{zip=390024, firstname=Automation Testing, town=Sama Savli Road, testname=UpdateShippingDetailsTab, newpassword=, execute=yes, lastname=Testing Automation, password=123456, currentpassword=, phone=, browser=chrome, street1=12 Automation Street, street2=Rose Ln Near Mark Street, confirmpassword=, email=nikhiltest123@mailinator.com, username=nikhil123@mailinator.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (420, 1566)
+  (Session info: chrome=105.0.5195.128)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;NIKHIL&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d5a8f433e2b1a3935a4c15a09786f9f, clickElement {id=060b2d1d-a244-4a03-97d7-a288ce92e9c4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\nikhi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64201/devtoo..., se:cdpVersion: 105.0.5195.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2d5a8f433e2b1a3935a4c15a09786f9f)] -&gt; xpath: //button[normalize-space()=&apos;Save address&apos;]]
+Session ID: 2d5a8f433e2b1a3935a4c15a09786f9f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at com.fa.pages.BasePage.click(BasePage.java:21)
+	at com.fa.pages.ShippingPage.ClickonSaveAddressBtn(ShippingPage.java:69)
+	at com.fa.tests.ShippingPageTest.UpdateShippingDetailsTab(ShippingPageTest.java:33)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+>>>>>>> 9d49c45 (new pages)
 </body>
 </html>
